@@ -1,0 +1,15 @@
+export {
+  REFERENCE_TOPICS,
+  appendNarrationChunk,
+  appendThinkingChunk,
+  dropTrailingSummaryEcho,
+  isDeployProjectActivity,
+  lastFinishedAssistant,
+  presentToolActivity,
+  resolveDeployOffer,
+  sealOpenThinking,
+  type DeployOfferMessage,
+  type ReferenceTopic,
+  type ToolAction,
+  type ToolPresentation,
+} from '../../shared/timeline.ts';

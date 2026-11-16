@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "incremental": false,
+    "plugins": []
+  },
+  "include": [
+    "agents/**/*.ts",
+    "shared/**/*.ts",
+    "edge-functions/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    ".edgeone"
+  ]
+}
